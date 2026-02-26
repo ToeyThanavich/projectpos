@@ -1,0 +1,38 @@
+body {
+  font-family: Tahoma, sans-serif;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.sticky-cart {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 999;
+}
+
+.sticky-status {
+  position: fixed;
+  right: 16px;
+  bottom: 16px; 
+  z-index: 999;
+}
